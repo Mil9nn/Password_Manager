@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://Milan:<db_password>@passwordmanager.xdcds.mongodb.net/?retryWrites=true&w=majority&appName=PasswordManager')
+mongoose.connect('mongodb://localhost:27017/')
   .then(() => { console.log("MongoDB connected successfully") })
   .catch((err) => { console.error("Failed to connect", err) });
 
