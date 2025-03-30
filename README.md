@@ -1,6 +1,6 @@
 # PassHush - Your Secure Password Manager
 
-![PassHush Screenshot](./public/screenshot.png)
+![PassHush Screenshot](/my-vite-app/public/screenshot.png)
 
 ## Overview
 
